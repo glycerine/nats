@@ -23,8 +23,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nats-io/go-nats/util"
-	"github.com/nats-io/nuid"
+	"github.com/glycerine/go-nats/util"
+	"github.com/glycerine/nuid"
 )
 
 // Default Constants

@@ -2,16 +2,16 @@
 A [Go](http://golang.org) client for the [NATS messaging system](https://nats.io).
 
 [![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)](http://opensource.org/licenses/MIT)
-[![Go Report Card](https://goreportcard.com/badge/github.com/nats-io/go-nats)](https://goreportcard.com/report/github.com/nats-io/go-nats) [![Build Status](https://travis-ci.org/nats-io/go-nats.svg?branch=master)](http://travis-ci.org/nats-io/go-nats) [![GoDoc](https://godoc.org/github.com/nats-io/go-nats?status.svg)](http://godoc.org/github.com/nats-io/go-nats) [![Coverage Status](https://coveralls.io/repos/nats-io/go-nats/badge.svg?branch=master)](https://coveralls.io/r/nats-io/go-nats?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/glycerine/go-nats)](https://goreportcard.com/report/github.com/glycerine/go-nats) [![Build Status](https://travis-ci.org/glycerine/go-nats.svg?branch=master)](http://travis-ci.org/glycerine/go-nats) [![GoDoc](https://godoc.org/github.com/glycerine/go-nats?status.svg)](http://godoc.org/github.com/glycerine/go-nats) [![Coverage Status](https://coveralls.io/repos/glycerine/go-nats/badge.svg?branch=master)](https://coveralls.io/r/glycerine/go-nats?branch=master)
 
 ## Installation
 
 ```bash
 # Go client
-go get github.com/nats-io/go-nats
+go get github.com/glycerine/go-nats
 
 # Server
-go get github.com/nats-io/gnatsd
+go get github.com/glycerine/gnatsd
 ```
 
 ## Basic Usage

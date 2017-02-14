@@ -16,8 +16,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/gnatsd/server"
-	gnatsd "github.com/nats-io/gnatsd/test"
+	"github.com/glycerine/gnatsd/server"
+	gnatsd "github.com/glycerine/gnatsd/test"
 )
 
 // Dumb wait program to sync on callbacks, etc... Will timeout

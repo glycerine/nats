@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nats-io/gnatsd/auth"
-	"github.com/nats-io/go-nats"
+	"github.com/glycerine/gnatsd/auth"
+	"github.com/glycerine/go-nats"
 )
 
 var testServers = []string{

@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/nats-io/go-nats"
-	"github.com/nats-io/nuid"
+	"github.com/glycerine/go-nats"
+	"github.com/glycerine/nuid"
 )
 
 // A Sample for a particular client

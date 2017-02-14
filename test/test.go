@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/nats-io/gnatsd/server"
-	"github.com/nats-io/go-nats"
+	"github.com/glycerine/gnatsd/server"
+	"github.com/glycerine/go-nats"
 
-	gnatsd "github.com/nats-io/gnatsd/test"
+	gnatsd "github.com/glycerine/gnatsd/test"
 )
 
 // So that we can pass tests and benchmarks...
