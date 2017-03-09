@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/glycerine/go-nats"
+	"github.com/glycerine/nats"
 	"github.com/glycerine/nuid"
 )
 

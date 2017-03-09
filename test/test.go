@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/glycerine/gnatsd/server"
-	"github.com/glycerine/go-nats"
+	"github.com/glycerine/nats"
 
 	gnatsd "github.com/glycerine/gnatsd/test"
 )

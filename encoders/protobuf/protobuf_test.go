@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/glycerine/go-nats"
-	"github.com/glycerine/go-nats/test"
+	"github.com/glycerine/nats"
+	"github.com/glycerine/nats/test"
 
-	"github.com/glycerine/go-nats/encoders/protobuf"
-	pb "github.com/glycerine/go-nats/encoders/protobuf/testdata"
+	"github.com/glycerine/nats/encoders/protobuf"
+	pb "github.com/glycerine/nats/encoders/protobuf/testdata"
 )
 
 const TEST_PORT = 8068

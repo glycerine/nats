@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/glycerine/go-nats"
+	"github.com/glycerine/nats"
 )
 
 // Shows different ways to create a Conn

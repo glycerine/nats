@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/glycerine/gnatsd/auth"
-	"github.com/glycerine/go-nats"
+	"github.com/glycerine/nats"
 )
 
 var testServers = []string{

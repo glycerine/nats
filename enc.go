@@ -10,7 +10,7 @@ import (
 	"time"
 
 	// Default Encoders
-	. "github.com/glycerine/go-nats/encoders/builtin"
+	. "github.com/glycerine/nats/encoders/builtin"
 )
 
 // Encoder interface is for all register encoders

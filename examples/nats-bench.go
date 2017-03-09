@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/glycerine/go-nats"
-	"github.com/glycerine/go-nats/bench"
+	"github.com/glycerine/nats"
+	"github.com/glycerine/nats/bench"
 )
 
 // Some sane defaults

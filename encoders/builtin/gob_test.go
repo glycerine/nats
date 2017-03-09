@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/glycerine/go-nats"
-	"github.com/glycerine/go-nats/test"
+	"github.com/glycerine/nats"
+	"github.com/glycerine/nats/test"
 )
 
 func NewGobEncodedConn(tl test.TestLogger) *nats.EncodedConn {

@@ -23,7 +23,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/glycerine/go-nats/util"
+	"github.com/glycerine/nats/util"
 	"github.com/glycerine/nuid"
 )
 

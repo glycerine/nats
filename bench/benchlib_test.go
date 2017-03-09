@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/glycerine/go-nats"
+	"github.com/glycerine/nats"
 )
 
 const (

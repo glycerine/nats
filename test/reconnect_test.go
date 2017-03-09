@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/glycerine/gnatsd/server"
-	"github.com/glycerine/go-nats"
+	"github.com/glycerine/nats"
 )
 
 func startReconnectServer(t *testing.T) *server.Server {

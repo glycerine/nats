@@ -5,8 +5,8 @@ package protobuf
 import (
 	"errors"
 
+	"github.com/glycerine/nats"
 	"github.com/golang/protobuf/proto"
-	"github.com/glycerine/go-nats"
 )
 
 // Additional index for registered Encoders.

@@ -8,7 +8,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/glycerine/go-nats"
+	"github.com/glycerine/nats"
 )
 
 // NOTE: Use tls scheme for TLS, e.g. nats-req -s tls://demo.nats.io:4443 foo hello
