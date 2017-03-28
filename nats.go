@@ -2691,7 +2691,7 @@ func (nc *Conn) ServerLocation() (*ServerLoc, error) {
 	if err != nil {
 		return sloc, err
 	}
-	sloc.Port = port
+	sloc.NatsPort = port
 
 	return sloc, nil
 }
@@ -2700,18 +2700,9 @@ func (nc *Conn) ServerLocation() (*ServerLoc, error) {
 // server identity, location, and rank.
 // It is used by the health-agent.
 type ServerLoc struct {
-	ID   string `json:"serverId"`
-	Host string `json:"host"`
-	Port int    `json:"port"`
-
-	// Are we the leader?
-	IsLeader bool `json:"leader"`
-
-	// LeaseExpires is zero for any
-	// non-leader. For the leader,
-	// LeaseExpires tells you when
-	// the leaders lease expires.
-	LeaseExpires time.Time `json:"leaseExpires"`
+	ID       string `json:"serverId"`
+	Host     string `json:"host"`
+	NatsPort int    `json:"natsPort"`
 
 	// lower rank is leader until lease
 	// expires. Ties are broken by ID.

@@ -1167,7 +1167,7 @@ func TestServerLocation(t *testing.T) {
 	if sloc.ID == "" {
 		t.Fatalf("nc.ServerLocation() returned bad ID")
 	}
-	if sloc.Port != TEST_PORT {
+	if sloc.NatsPort != TEST_PORT {
 		t.Fatalf("nc.ServerLocation() returned bad Port")
 	}
 	if sloc.Host == "" {
